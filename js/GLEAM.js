@@ -9,7 +9,7 @@ var _gleamIndex = null,
   _sessionIndex = null
 
 var Static = {
-  url: ['/gleam/', '/gleam/about.html', '/gleam/work.html', '/gleam/board.html', '/gleam/contact.html'],
+  url: ['/gleam/GLEAM.html', '/gleam/about.html', '/gleam/work.html', '/gleam/board.html', '/gleam/contact.html'],
   headerHeight: 80,
   footerHeight: 20
 }

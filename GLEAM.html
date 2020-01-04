@@ -1,123 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>GLEAM</title>
+		<title> GLEAM </title>
 
-    <link rel="stylesheet" href="/gleam/css/font.css" />
-    <link rel="stylesheet" href="/gleam/css/index.css" />
-    <script type="text/javascript" src="/gleam/js/libs/jquery.min.js"></script>
-  </head>
+		<script src="/gleam/libs/jquery.min.js"></script>
+		<script src="/gleam/libs/TweenMax.min.js"></script>
+		<script src="/gleam/libs/html5shiv.min.js"></script>
 
-  <body>
-    <div class="index">
-      <div class="bg"></div>
-      <h1 class="title"><span>G</span>LEAM</h1>
-      <div class="sub_title">A GLEAM OF <span>HOPE</span></div>
-      <div class="description">WELCOME TO <span>RYUZUKA</span>'S GLEAM</div>
-      <div class="emblem"><img src="/gleam/image/emblem.png" alt="ryuzuka" /></div>
-      <ul>
-        <li class="html">
-          <a href="/gleam/GLEAM.html" target="_blank">
-            <p class="platform">HTML</p>
-            <p class="language">JS</p>
-          </a>
-        </li>
-        <li class="flash">
-          <a href="http://ryuzuka.com/gleam/" target="_blank">
-            <p class="platform">FLASH</p>
-            <p class="language">AS3</p>
-          </a>
-        </li>
-      </ul>
-    </div>
+		<link rel="stylesheet" type="text/css" href="/gleam/css/GLEAM.css" />
+		<link rel="stylesheet" type="text/css" href="/gleam/css/content/main.css" />
+	</head>
 
-    <script>
-      $.fn.TypeText = function(text, delay) {
-        var $this = $(this)
+	<body>
+		<div id="wrap">
+			<div id="ryuzukaWrap">
+				<div class="ryuzuka">
+					<div class="ryuzuka3d">
+						<p class="textIndent">ryuzuka</p>
+					</div>
+				</div>
+			</div>
 
-        $this.height($this.height()).text('')
-        ;({
-          interval: null,
-          index: 0,
-          start: function() {
-            var _this = this
-            if (!this.interval) {
-              this.interval = setInterval(function() {
-                if (_this.index > text.length - 1) {
-                  _this.stop()
-                  $this.triggerHandler('complete')
-                  $this.removeAttr('style')
-                } else {
-                  var html = $this.html() + text[_this.index]
-                  $this.html(html)
-                  _this.index++
-                }
-              }, delay)
-            }
-            return this
-          },
-          stop: function() {
-            if (this.interval) {
-              clearInterval(this.interval)
-              this.interval = null
-            }
-            this.index = 0
-            return this
-          }
-        }
-          .stop()
-          .start())
-        return $this
-      }
+			<div id="curtain">
+				<div class="black"><p class="textIndent">black</p></div>
+				<div class="black"><p class="textIndent">black</p></div>
+				<div class="line"><p class="textIndent">line</p></div>
+				<div class="mask"><p class="textIndent">mask</p></div>
+				<div class="emblem"><p class="textIndent">ryuzuka</p></div>
+			</div>
 
-      var $index = $('.index')
-      var titleText = ['<span>G</span>', 'L', 'E', 'A', 'M'],
-        subTitleText = ['A', ' ', 'G', 'L', 'E', 'A', 'M', ' ', 'O', 'F', ' ', '<span>H</span>', '<span>O</span>', '<span>P</span>', '<span>E</span>'],
-        descriptionText = [
-          'W',
-          'E',
-          'L',
-          'C',
-          'O',
-          'M',
-          'E',
-          ' ',
-          'T',
-          'O',
-          ' ',
-          '<span>R</span>',
-          '<span>U</span>',
-          '<span>Y</span>',
-          '<span>Z</span>',
-          '<span>U</span>',
-          '<span>K</span>',
-          '<span>A</span>',
-          "'",
-          'S',
-          ' ',
-          'G',
-          'L',
-          'E',
-          'A',
-          'M'
-        ]
+			<header id="header">
+				<div class="bg">
+					<div class="solid"><p class="textIndent">bg</p></div>
+					<div class="border"><p class="textIndent">border</p></div>
+				</div>
+				<nav class="nav">
+					<h1 class="title"><a href="#none"><img src="/gleam/image/GLEAM.png" alt="GLEAM A GLEAM OF HOPE"></a></h1>
+					<ul class="gnb">
+						<li><a href="#none"><img width="54" src="/gleam/image/menu0_off.png" alt="about"></a></li>
+						<li><a href="#none"><img width="48" src="/gleam/image/menu1_off.png" alt="work"></a></li>
+						<li><a href="#none"><img width="55" src="/gleam/image/menu2_off.png" alt="board"></a></li>
+						<li><a href="#none"><img width="75" src="/gleam/image/menu3_off.png" alt="contact"></a></li>
+					</ul>
+				</nav>
+			</header>
 
-      $index.find('.title').TypeText(titleText, 80)
-      $index
-        .find('.sub_title')
-        .TypeText(subTitleText, 30)
-        .on('complete', function() {
-          $index.find('.emblem').animate({ opacity: 1 }, 300)
-          $index.find('.html').animate({ opacity: 1 }, 300)
-          $index.find('.flash').animate({ opacity: 1 }, 300)
-        })
-      $index.find('.description').TypeText(descriptionText, 20)
-    </script>
-  </body>
+			<section id="content" class="main">
+				<div class="title"><img src="/gleam/image/main_title.png" alt="GLEAM A GLEAM OF HOPE" /></div>
+				<ul>
+					<li><img src="/gleam/image/main_txt0.png" alt="WELCOME TO RYUZUKA`S GLEAM" /></li>
+					<li><img src="/gleam/image/main_emblem.png" alt="ryuzuka_emblem" /></li>
+					<li><img src="/gleam/image/main_txt1.png" alt="DANNMA RYUZI" /></li>
+					<li><img src="/gleam/image/main_txt2.png" alt="+" /></li>
+					<li><img src="/gleam/image/main_txt3.png" alt="EIKICHI ONIZUKA" /></li>
+					<li><img src="/gleam/image/main_txt4.png" alt="RYUZUKA" /></li>
+				</ul>
+			</section>
+
+			<footer id="footer">
+				<div class="bg">
+					<div class="border">
+						<p class="textIndent">border</p>
+					</div>
+					<div class="solid">
+						<p class="textIndent">bg</p>
+					</div>
+				</div>
+				<div class="copyright">
+					<img src="/gleam/image/copyright.png" alt="CORYTIGHT (c) 2020 RYUZUKA ALL RIGHTS RESERVED."></img>
+				</div>
+			</footer>
+		</div>
+
+		<script src="/gleam/js/GLEAM.js"></script>
+		<script src="/gleam/js/common/common.js"></script>
+		<script src="/gleam/js/common/window.js"></script>
+		<script src="/gleam/js/common/curtain.js"></script>
+		<script src="/gleam/js/common/header.js"></script>
+		<script src="/gleam/js/common/ryuzuka.js"></script>
+		<script src="/gleam/js/common/footer.js"></script>
+		<script src="/gleam/js/content/main.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				GLEAM.init()
+			})
+		</script>
+	</body>
 </html>

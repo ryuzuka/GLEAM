@@ -91,10 +91,6 @@ a {
   text-align: center;
 }
 
-/* 768 ~ */
-@media screen and (min-width: 768px) {
-}
-
 /* 0 ~ 767 */
 @media screen and (max-width: 767px) {
   .index {
@@ -129,4 +125,8 @@ a {
   .index li .platform {
     font-size: 15px;
   }
+}
+
+/* 768 ~ */
+@media screen and (min-width: 768px) {
 }

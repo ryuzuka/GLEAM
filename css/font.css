@@ -1,68 +1,67 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'HelveticaNeueLTStd_UltLtCn27';
-    src: url('../font/HelveticaNeueLTStd-UltLtCn.otf')
+  font-family: 'HelveticaNeueLTStd_UltLtCn27';
+  src: url('../font/HelveticaNeueLTStd-UltLtCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_ThCn37';
-    src: url('../font/HelveticaNeueLTStd-ThCn.otf')
+  font-family: 'HelveticaNeueLTStd_ThCn37';
+  src: url('../font/HelveticaNeueLTStd-ThCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_LtCn47';
-    src: url('../font/HelveticaNeueLTStd-LtCn.otf')
+  font-family: 'HelveticaNeueLTStd_LtCn47';
+  src: url('../font/HelveticaNeueLTStd-LtCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_Cn57';
-    src: url('../font/HelveticaNeueLTStd-Cn.otf')
+  font-family: 'HelveticaNeueLTStd_Cn57';
+  src: url('../font/HelveticaNeueLTStd-Cn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_MdCn67';
-    src: url('../font/HelveticaNeueLTStd-MdCn.otf')
+  font-family: 'HelveticaNeueLTStd_MdCn67';
+  src: url('../font/HelveticaNeueLTStd-MdCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_BdCn77';
-    src: url('../font/HelveticaNeueLTStd-BdCn.otf')
+  font-family: 'HelveticaNeueLTStd_BdCn77';
+  src: url('../font/HelveticaNeueLTStd-BdCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_HvCn87';
-    src: url('../font/HelveticaNeueLTStd-HvCn.otf')
+  font-family: 'HelveticaNeueLTStd_HvCn87';
+  src: url('../font/HelveticaNeueLTStd-HvCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_BlkCn97';
-    src: url('../font/HelveticaNeueLTStd-BlkCn.otf')
+  font-family: 'HelveticaNeueLTStd_BlkCn97';
+  src: url('../font/HelveticaNeueLTStd-BlkCn.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_XBlkCn107';
-    src: url('../font/HelveticaNeueLTStd-XBlkCn.otf')
+  font-family: 'HelveticaNeueLTStd_XBlkCn107';
+  src: url('../font/HelveticaNeueLTStd-XBlkCn.otf');
 }
 
-
 @font-face {
-    font-family: 'HelveticaNeueLTStd_UltLtEx23';
-    src: url('../font/HelveticaNeueLTStd-UltLtEx.otf')
+  font-family: 'HelveticaNeueLTStd_UltLtEx23';
+  src: url('../font/HelveticaNeueLTStd-UltLtEx.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_ThEx33';
-    src: url('../font/HelveticaNeueLTStd-ThEx.otf')
+  font-family: 'HelveticaNeueLTStd_ThEx33';
+  src: url('../font/HelveticaNeueLTStd-ThEx.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_LtEx43';
-    src: url('../font/HelveticaNeueLTStd-LtEx.otf')
+  font-family: 'HelveticaNeueLTStd_LtEx43';
+  src: url('../font/HelveticaNeueLTStd-LtEx.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_Ex53';
-    src: url('../font/HelveticaNeueLTStd-Ex.otf')
+  font-family: 'HelveticaNeueLTStd_Ex53';
+  src: url('../font/HelveticaNeueLTStd-Ex.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_BdEx73';
-    src: url('../font/HelveticaNeueLTStd-BdEx.otf')
+  font-family: 'HelveticaNeueLTStd_BdEx73';
+  src: url('../font/HelveticaNeueLTStd-BdEx.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_HvEx83';
-    src: url('../font/HelveticaNeueLTStd-HvEx.otf')
+  font-family: 'HelveticaNeueLTStd_HvEx83';
+  src: url('../font/HelveticaNeueLTStd-HvEx.otf');
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd_BlkEx93';
-    src: url('../font/HelveticaNeueLTStd-BlkEx.otf')
+  font-family: 'HelveticaNeueLTStd_BlkEx93';
+  src: url('../font/HelveticaNeueLTStd-BlkEx.otf');
 }

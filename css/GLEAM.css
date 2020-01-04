@@ -161,3 +161,16 @@ body {
   height: 1px;
   background: #ddd;
 }
+
+/* 0 ~ 767 */
+@media screen and (max-width: 767px) {
+  #ryuzukaWrap .ryuzuka .ryuzuka3d {
+    width: 278px;
+    height: 350px;
+    background: url(/gleam/image/ryuzuka_s.png) no-repeat;
+  }
+}
+
+/* 768 ~ */
+@media screen and (min-width: 768px) {
+}
