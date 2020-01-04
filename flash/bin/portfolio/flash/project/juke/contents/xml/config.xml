@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<swf>
+		<main><![CDATA[main.swf]]></main>
+		<intro><![CDATA[jukeIntro.swf]]></intro>
+		<teaser><![CDATA[jukeMain.swf]]></teaser>
+		<pre><![CDATA[jukePreOrder.swf]]></pre>
+		<evt><![CDATA[jukeEvent.swf]]></evt>
+		<spec><![CDATA[jukeSpec.swf]]></spec>
+		<gallery><![CDATA[jukeGallery.swf]]></gallery>
+	</swf>
+	<nav>
+		<intro><![CDATA[Intro]]></intro>
+		<teaser><![CDATA[Main]]></teaser>
+		<pre><![CDATA[PreOrder]]></pre>
+		<evt><![CDATA[Event]]></evt>
+		<spec><![CDATA[Spec]]></spec>
+		<gallery><![CDATA[Gallery]]></gallery>
+	</nav>
+	<url>
+	    <movie url="contents/video/juke_0916_01.flv" />
+		<gallery type="url"><![CDATA[contents/xml/gallery.xml]]></gallery>
+	</url>
+</data>

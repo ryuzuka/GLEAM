@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<TITLE> Marketing </TITLE>
+		<META NAME="Author" CONTENT="">
+		<META NAME="Keywords" CONTENT="">
+		<META NAME="Description" CONTENT="">
+		<script>
+
+			function flashString(mID, mUrl, mWidth, mHeight, mParams, mBGcolor, mWmode)
+			{
+				var buff = [];
+				buff.push("<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,2,0,0' width='" + mWidth + "' height='" + mHeight + "' id='" + mID + "' align='middle'>");
+				buff.push("<param name='allowScriptAccess' value='always' />");
+				buff.push("<param name='allowFullScreen' value='true' />");
+				buff.push("<param name='movie' value='" + mUrl + "' />");
+				buff.push("<param name='FlashVars' value='" + mParams + "' />");
+				buff.push("<param name='quality' value='high' />");
+				buff.push("<param name='wmode' value='" + mWmode + "' />");
+				buff.push("<param name='bgcolor' value='" + mBGcolor + "' />");
+				buff.push("<embed src='" + mUrl + "' FlashVars='" + mParams + "' quality='high' wmode='" + mWmode + "' bgcolor='" + mBGcolor + "' width='" + mWidth + "' height='" + mHeight + "' name='" + mID + "' align='middle' allowScriptAccess='always' allowFullScreen='false' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' />");
+				buff.push("</object>");
+				
+				return buff.join("");
+			}
+
+			function flashObject(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode)
+			{
+				document.write(flashString(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode));
+			}
+
+
+
+			/*
+			function onClickToCenter()
+			{
+				//alert("onClickToCenter");
+				// document.documentElement.clientHeight
+				//alert("navigator.userAgent: "+navigator.userAgent);
+
+				var innerHei;
+				if( navigator.userAgent.indexOf("IE") != -1 )
+				{
+					innerHei = window.document.documentElement.clientHeight;
+					
+				}else
+				{
+					innerHei = window.innerHeight;
+				}
+
+				var nMaxTop	= window.document.documentElement.scrollHeight-innerHei;
+
+				var txt="";
+				txt += "window.document.documentElement.scrollHeight: "+window.document.documentElement.scrollHeight+"\n";
+				txt += "window.document.documentElement.clientHeight: "+window.document.documentElement.clientHeight+"\n";
+				txt += "window.innerHeight: "+window.innerHeight+"\n";
+				txt += "innerHei: "+innerHei+"\n";
+				txt += "nMaxTop: "+nMaxTop;
+
+				//alert(txt);
+
+				window.scrollTo( 0, parseInt(nMaxTop/2) );
+			}
+
+
+
+
+
+
+			
+			function transformFlashHeight($height)
+			{
+				Marketing.height = $height;
+			}
+			function scrollToTop()
+			{
+				window.scrollTo( null, 0 );
+			}
+			*/
+
+		</script>
+	</HEAD>
+
+
+	 <BODY style='margin:0px; background-color:#ffffff'>
+		<script>
+			var flashVars = 'xmlPath=./xml/navi.xml';
+			flashObject('Marketing', 'Marketing.swf', '100%', '1748', flashVars, '#ffffff', 'window');
+		</script>
+	</BODY>
+
+</HTML>

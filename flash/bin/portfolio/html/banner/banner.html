@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>rollingBanner</title>
+	<link rel="stylesheet" type="text/css" href="http://theborn.madeinreal.com/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="http://theborn.madeinreal.com/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://theborn.madeinreal.com/css/sub.css" />
+	<link rel="stylesheet" type="text/css" href="http://theborn.madeinreal.com/css/rhinoslider-1.05.css" />
+	<style type="text/css">
+		.als-container{width:1000px;}
+		.als-mask {overflow:hidden; position:relative; width:880px;left:60px;}
+		.als-viewport{width:5000px; height:75px;}
+		.als-viewport img{position:absolute;}
+		#sliderDiv{position:relative;}
+		.back{position:absolute; left:0; top:30px;}
+		.next{position:absolute; right:0; top:30px;}
+
+	</style>
+
+	<script type="text/javascript" src="js/jQuery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jQuery/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/greensock/jquery.gsap.min.js"></script>
+
+	<script type="text/javascript" src="js/footerBanner.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div id="footerWrap"><!-- footer -->
+		<div id="sliderDiv" class="als-container">
+			<div class="controller">
+				<div class="back"><a href="#"><img src="img/thin_left_arrow_333.png" alt="back"/></a></div>
+				<div class="next"><a href="#"><img src="img/thin_right_arrow_333.png" alt="next" /></a></div>
+			</div>
+
+			<div class="als-mask">
+				<div class="als-viewport">
+					<div><a href="#"><img src="img/01.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/02.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/03.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/04.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/05.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/06.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/07.png" alt="" /></a></div>
+					<div><a href="#"><img src="img/08.png" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div><!-- //footer -->
+</div><!-- //wrap --></body>
+</html>

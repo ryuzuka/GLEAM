@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#content { visibility: hidden }
+
+
+#content { height: 207px }
+#content ul li { text-align: center}

@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<title> CSK </title>
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css"  />
+
+
+		<script type="text/javascript" src="js/jQuery/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jQuery/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/greensock/jquery.gsap.min.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/main/header.js"></script>
+		<script type="text/javascript" src="js/main/container.js"></script>
+		<script type="text/javascript" src="js/main/nav.js"></script>
+		<script type="text/javascript" src="js/main/highlight.js"></script>
+
+		<script type="text/javascript">
+			var main = null;
+
+			$(document).ready(function(){
+				main = new Main();
+				main.init();
+			});
+
+			window.onload = function(){
+
+				var resizeEvent = document.createEvent("Event");
+				resizeEvent.initEvent("resize", false, false);
+				window.dispatchEvent(resizeEvent);
+			}
+
+
+
+
+
+		</script>
+
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="main">
+
+
+
+
+			<div id="header">
+
+				<div class="logo">
+					<a href="http://csk.kr/renewal/main/index.html" target="_blank"><img src="img/cskLogo.png" /></a>
+				</div>
+
+				<div class="gnb">
+					<ul>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_01_off.png" alt="" /></a>
+							</div>
+							<ul class="depth2">
+								<li class="firstLi">
+									<a href="#"><img src="img/menu_01_01_off.png" alt="" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/menu_01_02_off.png" alt="" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/menu_01_03_off.png" alt="" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/menu_01_04_off.png" alt="" /></a>
+								</li>
+								<li class="lastLi">
+									<a href="#"><img src="img/menu_01_05_off.png" alt="" /></a>
+								</li>
+							</ul>
+						</li>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_02_off.png" alt="" /></a>
+							</div>
+							<ul class="depth2">
+								<li class="firstLi">
+									<a href="#"><img src="img/menu_02_01_off.png" alt="" /></a>
+								</li>
+								<li class="lastLi">
+									<a href="#"><img src="img/menu_02_02_off.png" alt="" /></a>
+								</li>
+							</ul>
+						</li>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_03_off.png" alt="" /></a>
+							</div>
+						</li>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_04_off.png" alt="" /></a>
+							</div>
+							<ul class="depth2">
+								<li class="firstLi">
+									<a href="#"><img src="img/menu_04_01_off.png" alt="" /></a>
+								</li>
+								<li class="lastLi">
+									<a href="#"><img src="img/menu_04_02_off.png" alt="" /></a>
+								</li>
+							</ul>
+						</li>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_05_off.png" alt="" /></a>
+							</div>
+							<ul class="depth2">
+								<li class="firstLi">
+									<a href="#"><img src="img/menu_05_01_off.png" alt="" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/menu_05_02_off.png" alt="" /></a>
+								</li>
+								<li class="lastLi">
+									<a href="#"><img src="img/menu_05_03_off.png" alt="" /></a>
+								</li>
+							</ul>
+						</li>
+						<li class="depth1">
+							<div class="menu">
+								<a href="#"><img src="img/menu_06_off.png" alt="" /></a>
+							</div>
+							<ul class="depth2">
+								<li class="firstLi">
+									<a href="#"><img src="img/menu_06_01_off.png" alt="" /></a>
+								</li>
+								<li class="lastLi">
+									<a href="#"><img src="img/menu_06_02_off.png" alt="" /></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+
+
+			<div id="container">
+				<div class="rect red type0" id="box0">
+					<div class="title"><img src="img/conpany.png" alt=""/></div>
+					<div class="text"><img src="img/vision.png" alt=""/></div>
+				</div>
+				<div class="rect white type2" id="box1">
+					<img class="cbTitleInfo" src="img/info.png" alt="공지사항" />
+					<span class="dateTxt">2013.05.02</span>
+					<p class="desTxt">CSK 홈페이지 리뉴얼이 완료 되었습니다. 여러분들의 많은 관심 부탁 드립니다.</p>
+					<a href="" target=""><img class="cbTitleMore" src="img/more.png" alt="more" /></a>
+				</div>
+				<div class="rect type1" id="box2">
+					<img class="bg" src="img/bg_clean.jpg" />
+					<img class="title" src="img/cleanSK.png" />
+				</div>
+				<div class="rect gray type0" id="box3">
+					<div class="title"><img src="img/conpanyGray.png" alt=""/></div>
+					<div class="text"><img src="img/globalNet.png" alt=""/></div>
+				</div>
+				<div class="rect white type0" id="box4">
+					<div class="title"><img src="img/rnd.png" alt=""/></div>
+					<div class="text"><img src="img/introCenter.png" alt=""/></div>
+				</div>
+				<div class="rect black type0" id="box5">
+					<div class="title"><img src="img/menu_txt_pro.png" alt=""/></div>
+					<div class="text"><img src="img/menu_txt_pro2.png" alt=""/></div>
+				</div>
+				<div class="rect white type0" id="box6">
+					<div class="title"><img src="img/cskStory.png" alt=""/></div>
+					<div class="text"><img src="img/spotSketch.png" alt=""/></div>
+				</div>
+				<div class="rect type1" id="box7">
+					<img class="bg" src="img/manPowerImg.jpg" />
+					<img class="title" src="img/manPower.png" />
+				</div>
+				<div class="rect type1" id="box8">
+					<img class="bg" src="img/greenTomo.jpg" />
+					<img class="title" src="img/greenTomo.png" />
+				</div>
+				<div class="rect white type0" id="box9">
+					<div class="title"><img src="img/rnd.png" alt=""/></div>
+					<div class="text"><img src="img/introCenter2.png" alt=""/></div>
+				</div>
+				<div class="rect type1" id="box10">
+					<div class="bg"><img src="img/globalnetworkImg.jpg" alt=""/></div>
+					<div class="title"><img src="img/globalnetwork.png" alt=""/></div>
+				</div>
+				<div class="rect white type2" id="box11">
+					<img class="cbTitleInfo" src="img/customer.png" alt="공지사항" />
+					<span class="dateTxt">2013.05.02</span>
+					<p class="desTxt">안녕하십니까 CSK입사를 희망하는 지원자 이태곤입니다. 이번 CSK 전장설계 글을 확인하고 지원하려고 했으나 경력...</p>
+					<a href="" target=""><img class="cbTitleMore" src="img/more.png" alt="more" /></a>
+				</div>
+				<div class="rect doubleRect type1" id="box12">
+					<img class="title" src="img/hope.png" alt="" />
+					<img class="bg" src="img/hImg.jpg" alt="" />
+				</div>
+				<div class="rect type2" id="box13">
+
+				</div>
+				<div class="rect red type0" id="box14">
+					<div class="title"><img src="img/conpany.png" alt=""/></div>
+					<div class="text"><img src="img/conpanyHis.png" alt=""/></div>
+				</div>
+				<div class="rect gray type0" id="box15">
+					<div class="title"><img src="img/support.png" alt=""/></div>
+					<div class="text"><img src="img/infoWay.png" alt=""/></div>
+				</div>
+				<div class="rect doubleRect type1" id="box16">
+					<img class="title" src="img/challange.png" alt="" />
+					<img class="bg" src="img/chImg.jpg" alt="" />
+				</div>
+				<div class="rect type2" id="box17">
+
+				</div>
+				<div class="rect gray doubleRect2 type2" id="box18">
+					<img class="cbTitleInfo" src="img/menu_txt_introCom.png" alt="공지사항" />
+					<p class="desTxt single">csk는 1997년 한양이엔지,독일 CS clean system AG,일본 TOMOESHOKAI CO.LTE의 합작법인으로 설립되었으며 반도체,LCD공정 배기가스 처리장치인 Waste gas abatement system 및 Liquid delivery system을 제조 공급하는 전문 기업입니다</p>
+					<p class="desTxt double">csk는 1997년 한양이엔지,독일 CS clean system AG,일본 TOMOESHOKAI CO.LTE의 합작법인으로 설립되었으며 반도체,LCD공정 배기가스 처리장치인 Waste gas abatement system 및 Liquid delivery system을 제조 공급하는 전문 기업입니다</p>
+				</div>
+				<div class="rect white type0" id="box19">
+					<div class="title"><img src="img/recruit.png" alt=""/></div>
+					<div class="text"><img src="img/recruit2.png" alt=""/></div>
+				</div>
+				<div class="rect doubleRect type1" id="box20">
+					<img class="title" src="img/global.png" alt="" />
+					<img class="bg" src="img/gloImg.jpg" alt="" />
+				</div>
+				<div class="rect" id="box21">
+
+				</div>
+				<div class="rect type2" id="box22">
+
+				</div>
+				<div class="rect black type2" id="box23">
+
+				</div>
+			</div>
+
+
+
+			<div id="nav">
+				<div class="button left"><img src="img/arrow_left.png" /></div>
+				<div class="button center"><img src="img/navigator.png" /></div>
+				<div class="button right"><img src="img/arrow_right.png" /></div>
+			</div>
+
+
+
+			<div id="highlight">
+				<div class="highlightContainer">
+
+					<div class="bgContainer">
+						<div class="bg bg1">
+							<img src="img/highlight/highlightBg_03.jpg" />
+						</div>
+						<div class="bg bg2">
+							<img src="img/highlight/highlightBg_02.jpg" />
+						</div>
+						<div class="bg bg3">
+							<img src="img/highlight/highlightBg_01.jpg" />
+						</div>
+					</div>
+
+					<div class="titleContainer">
+						<div class="title">
+							<div class="main title1">
+								<img src="img/highlight/highlightTitle01.png" />
+							</div>
+							<div class="sub title1">
+								<img src="img/highlight/highlightSubTitle01.png" />
+							</div>
+						</div>
+						<div class="title">
+							<div class="main title2">
+								<img src="img/highlight/highlightTitle02.png" />
+							</div>
+							<div class="sub title2">
+								<img src="img/highlight/highlightSubTitle02.png" />
+							</div>
+						</div>
+
+						<div class="title">
+							<div class="main title3">
+								<img src="img/highlight/highlightTitle03.png" />
+							</div>
+							<div class="sub title3">
+								<img src="img/highlight/highlightSubTitle03.png" />
+							</div>
+						</div>
+					</div>
+
+					<div class="controller">
+						<ul>
+							<li class="dot dot1">
+								<img class="off" src="img/highlight/dotOut.png" />
+								<img class="on" src="img/highlight/dotOver.png" />
+							</li>
+							<li class="dot dot2">
+								<img class="off" src="img/highlight/dotOut.png" />
+								<img class="on" src="img/highlight/dotOver.png" />
+							</li>
+							<li class="dot dot3">
+								<img class="off" src="img/highlight/dotOut.png" />
+								<img class="on" src="img/highlight/dotOver.png" />
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

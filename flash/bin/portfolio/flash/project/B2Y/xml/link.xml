@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+
+	작성자 : 김승권
+	작성일 : 2011.08.26
+	e-mail : ryuzuka@inpix.com
+	
+
+	linkURL - 해당 메뉴 링크URL 입니다.
+	imgURL - 로드되는 swf의 경로입니다.
+
+-->
+
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+
+<xml>
+
+	<main>
+		<linkURL linkTarget="_self"><![CDATA[./main.html]]></linkURL>
+	</main>
+	<quick>
+		<linkURL linkTarget="_self"><![CDATA[javascript:alert("공식쇼핑몰 바로가기")]]></linkURL>
+	</quick>
+
+	<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+	<navi>
+		
+		<depth1>
+			<name><![CDATA[B2Y MIST]]></name>
+			<linkURL linkTarget="_self"><![CDATA[./secret.html]]></linkURL>
+		</depth1>
+		<depth1>
+			<name><![CDATA[피부 보습의 4가지 비밀]]></name>
+			<linkURL linkTarget="_self"><![CDATA[./secret.html]]></linkURL>
+		</depth1>
+		<depth1>
+			<name><![CDATA[B2Y Aromer Revita]]></name>
+			<linkURL linkTarget="_self"><![CDATA[./secret.html]]></linkURL>
+		</depth1>
+		<depth1>
+			<name><![CDATA[이렇게 사용하세요]]></name>
+			<linkURL linkTarget="_self"><![CDATA[./secret.html]]></linkURL>
+		</depth1>
+		<depth1>
+			<name><![CDATA[twitter]]></name>
+			<linkURL linkTarget="_self"><![CDATA[javascript:alert("twitter")]]></linkURL>
+		</depth1>
+		<depth1>
+			<name><![CDATA[facebook]]></name>
+			<linkURL linkTarget="_self"><![CDATA[javascript:alert("facebook")]]></linkURL>
+		</depth1>
+
+	</navi>
+
+	<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+	
+	<contents>
+			
+		<imgURL linkTarget="_self"><![CDATA[./con0.swf]]></imgURL>
+		<imgURL linkTarget="_self"><![CDATA[./con1.swf]]></imgURL>
+		<imgURL linkTarget="_self"><![CDATA[./con2.swf]]></imgURL>
+		<imgURL linkTarget="_self"><![CDATA[./con3.swf]]></imgURL>
+		<imgURL linkTarget="_self"><![CDATA[./con4.swf]]></imgURL>
+		
+	</contents>
+
+</xml>

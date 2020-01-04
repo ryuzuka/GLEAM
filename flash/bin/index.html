@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<title> GLEAM </title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">	
+		<script type="text/javascript" src="js/swfobject.js"></script>
+
+
+		<script type="text/javascript">
+			function openProject( linkTarget, linkURL ) {
+				var w,
+					h,
+					cx,
+					cy;
+
+				if ( linkTarget == 'YeosuExpo' ) {
+					w = 914;
+					h = 334;
+				}
+				if ( linkTarget == 'rollingBanner' ) {
+					w = 1000;
+					h = 300;
+				}
+				cx = ( screen.width - w ) / 2;
+				cy = ( screen.height - h ) / 2 - 50;
+				window.open( linkURL, '_blank', 'width=' + w + ', height=' + h + ', left=' + cx + ', top=' + cy );
+			}
+		</script>
+
+	</head>
+
+	<body id="GLEAM">
+		<script type="text/javascript">
+			flashvars = {};
+			params = {wmode: 'transparent', };
+			attributes = {};
+			swfobject.embedSWF('GLEAM.swf', 'GLEAM', '100%', '100%', '9.0.0', null, flashvars, params, attributes);
+		</script>
+	</body>
+
+</html>

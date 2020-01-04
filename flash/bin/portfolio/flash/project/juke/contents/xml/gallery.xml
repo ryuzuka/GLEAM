@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+		<image name="photo01"><![CDATA[contents/image/photo11.jpg]]></image>
+		<image name="photo02"><![CDATA[contents/image/photo03.jpg]]></image>
+		<image name="photo03"><![CDATA[contents/image/photo04.jpg]]></image>
+		<image name="photo04"><![CDATA[contents/image/photo06.jpg]]></image>
+		<image name="photo05"><![CDATA[contents/image/photo07.jpg]]></image>
+		<image name="photo06"><![CDATA[contents/image/photo08.jpg]]></image>
+		<image name="photo07"><![CDATA[contents/image/photo09.jpg]]></image>
+
+		<image name="thumb01"><![CDATA[contents/image/thumb11.jpg]]></image>
+		<image name="thumb02"><![CDATA[contents/image/thumb03.jpg]]></image>
+		<image name="thumb03"><![CDATA[contents/image/thumb04.jpg]]></image>
+		<image name="thumb04"><![CDATA[contents/image/thumb06.jpg]]></image>
+		<image name="thumb05"><![CDATA[contents/image/thumb07.jpg]]></image>
+		<image name="thumb06"><![CDATA[contents/image/thumb08.jpg]]></image>
+		<image name="thumb07"><![CDATA[contents/image/thumb09.jpg]]></image>
+</data>

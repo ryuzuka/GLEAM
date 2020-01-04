@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+
+		<title> [ 여수엑스포 ] infoBanner </title>
+
+		<link rel="stylesheet" type="text/css" href="reset.css"  />
+		<script>
+
+			function flashString(mID, mUrl, mWidth, mHeight, mParams, mBGcolor, mWmode)
+			{
+				var buff = [];
+				buff.push("<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,2,0,0' width='" + mWidth + "' height='" + mHeight + "' id='" + mID + "' align='middle'>");
+				buff.push("<param name='allowScriptAccess' value='always' />");
+				buff.push("<param name='allowFullScreen' value='true' />");
+				buff.push("<param name='movie' value='" + mUrl + "' />");
+				buff.push("<param name='FlashVars' value='" + mParams + "' />");
+				buff.push("<param name='quality' value='high' />");
+				buff.push("<param name='wmode' value='" + mWmode + "' />");
+				buff.push("<param name='bgcolor' value='" + mBGcolor + "' />");
+				buff.push("<embed src='" + mUrl + "' FlashVars='" + mParams + "' quality='high' wmode='" + mWmode + "' bgcolor='" + mBGcolor + "' width='" + mWidth + "' height='" + mHeight + "' name='" + mID + "' align='middle' allowScriptAccess='always' allowFullScreen='false' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' />");
+				buff.push("</object>");
+
+				return buff.join("");
+			}
+
+			function flashObject(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode)
+			{
+				document.write(flashString(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode));
+			}
+
+		</script>
+	</head>
+
+
+	 <body>
+		<div>
+			<script>
+				var flashVars = 'xmlPath=./xml/mainXml.xml';
+				flashObject('infoBanner', 'infoBanner.swf', '914', '334', flashVars, '#ffffff', 'window');
+			</script>
+		</div>
+	</body>
+
+</html>

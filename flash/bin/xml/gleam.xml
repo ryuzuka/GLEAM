@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<xml>
+	<work>
+		<category type="project">
+			<group>
+				<item>
+					<title><![CDATA[GLEAM VER.2]]></title>
+					<date><![CDATA[2013 . 01]]></date>
+					<client><![CDATA[PORTFOLIO SITE]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb17.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info17.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://ryuzuka.com]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[GLEAM VER.1]]></title>
+					<date><![CDATA[2010 . 11]]></date>
+					<client><![CDATA[GRADUATION WORK]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb00.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info00.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio\flash\project\GLEAM\index.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[DIGITALFLOW]]></title>
+					<date><![CDATA[2010 . 11]]></date>
+					<client><![CDATA[GRADUATION EXHIBITION]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb01.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info01.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio\flash\project\DigitalFlow\index.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[NISSAN JUKE]]></title>
+					<date><![CDATA[2013 . 09]]></date>
+					<client><![CDATA[NISSAN]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb19.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info19.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio\flash\project\juke\index.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[NISSAN KOREA]]></title>
+					<date><![CDATA[2013 . 05]]></date>
+					<client><![CDATA[NISSAN]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb20.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info20.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.nissan.co.kr]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[POSCO ICT]]></title>
+					<date><![CDATA[2013 . 03]]></date>
+					<client><![CDATA[POSCO ICT]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb21.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info21.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.poscoict.co.kr]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[2012&AWARD]]></title>
+					<date><![CDATA[2013 . 01]]></date>
+					<client><![CDATA[INPIX]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb18.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info18.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/project/2012nAward/nAward2012.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SNOWMAN]]></title>
+					<date><![CDATA[2012 . 04]]></date>
+					<client><![CDATA[ONSE TELECOM]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb15.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info15.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.snowman.co.kr/main.do]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[INPIX WEB SITE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[INPIX]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb14.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info14.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.inpix.com/]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[INBITSOFT WEB SITE]]></title>
+					<date><![CDATA[2012 . 02]]></date>
+					<client><![CDATA[INBITSOFT]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb13.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info13.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.inbitsoft.co.kr/]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[POSCO WEBZINE]]></title>
+					<date><![CDATA[2012 . 01]]></date>
+					<client><![CDATA[POSCO ICT]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb12.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info12.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.poscoict.co.kr/webzine/201215/main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[EXPO 2012 YEOSU EXPO]]></title>
+					<date><![CDATA[2011 . 12]]></date>
+					<client><![CDATA[SKC&C]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb10.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info10.png]]></info>
+					<linkURL linkTarget="YeosuExpo"><![CDATA[portfolio/flash/project/YeosuExpo/infoBanner.html]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[TVING VOD]]></title>
+					<date><![CDATA[2011 . 11]]></date>
+					<client><![CDATA[CJ HELLOVISION]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb11.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info11.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.tving.com/vod/main.do]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[YEGA CHIMSANDONG]]></title>
+					<date><![CDATA[2011 . 08]]></date>
+					<client><![CDATA[SSANGYONG]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb08.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info08.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://cs2.ssyapt.com/main/main.asp]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[B2Y MIST]]></title>
+					<date><![CDATA[2011 . 08]]></date>
+					<client><![CDATA[GHD KOREA]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb09.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info09.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/project/B2Y/main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[YEGA GWANGANDONG]]></title>
+					<date><![CDATA[2011 . 07]]></date>
+					<client><![CDATA[SSANGYONG]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb07.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info07.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://ka.ssyapt.com/main/main.asp]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SEJONG STORY]]></title>
+					<date><![CDATA[2011 . 06]]></date>
+					<client><![CDATA[SEHONG CENTER]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb05.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info05.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://sejongstory.or.kr]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SEJONG CENTER]]></title>
+					<date><![CDATA[2011 . 06]]></date>
+					<client><![CDATA[SEHONG CENTER]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb04.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info04.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.sejongpac.or.kr]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[SEOUL NAMSAN TRADITIONAL THEATER]]></title>
+					<date><![CDATA[2011 . 06]]></date>
+					<client><![CDATA[SEHONG CENTER]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb06.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info06.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://sngad.sejongpac.or.kr]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[POSCO TOGETHER]]></title>
+					<date><![CDATA[2011 . 05]]></date>
+					<client><![CDATA[POSCO]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb03.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info03.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://together.posco.co.kr/]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[YEGA GEUMJUNGSAN]]></title>
+					<date><![CDATA[2011 . 04]]></date>
+					<client><![CDATA[SSANGYONG]]></client>
+					<thumb><![CDATA[img/work/project/thumb/thumb02.png]]></thumb>
+					<info><![CDATA[img/work/project/info/info02.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://gj2.ssyapt.com]]></linkURL>
+				</item>
+			</group>
+		</category>
+
+
+
+		<category type="proposal">
+			<group>
+				<item>
+					<title><![CDATA[CSK WEB SITE]]></title>
+					<date><![CDATA[2012 . 12]]></date>
+					<client><![CDATA[CSK]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb00.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info00.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/CSK/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[THE BEET PARTY GATE]]></title>
+					<date><![CDATA[2012 . 11]]></date>
+					<client><![CDATA[REDROVER]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb06.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info06.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/redrover/redrover_gate.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[THE BEET PARTY BRAND]]></title>
+					<date><![CDATA[2012 . 11]]></date>
+					<client><![CDATA[REDROVER]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb07.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info07.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/redrover/redrover_brand.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[POSCO MES PORTAL]]></title>
+					<date><![CDATA[2012 . 11]]></date>
+					<client><![CDATA[POSCO ICT]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb03.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info03.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/posco MES/Marketing.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[POSCO MES MARKETING]]></title>
+					<date><![CDATA[2012 . 10]]></date>
+					<client><![CDATA[POSCO ICT]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb02.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info02.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/posco Marketing/Marketing.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[PARADISE WEBSITE -  A TYPE]]></title>
+					<date><![CDATA[2012 . 09]]></date>
+					<client><![CDATA[PARADISE GROUP]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb04.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info04.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/paradise/web/a_type_main.html]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[PARADISE WEBSITE -  B TYPE]]></title>
+					<date><![CDATA[2012 . 09]]></date>
+					<client><![CDATA[PARADISE GROUP]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb05.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info05.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/paradise/web/b_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[ALLRE SERVICE]]></title>
+					<date><![CDATA[2012 . 09]]></date>
+					<client><![CDATA[NC JAPAN]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb08.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info08.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/NC Japan/NCJapanAllre.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[PARADISE CASINO WEB SITE]]></title>
+					<date><![CDATA[2012 . 07]]></date>
+					<client><![CDATA[PARADISE CASINO]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb09.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info09.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/paradise/casino/b_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[NATIONAL CANCER CENTER]]></title>
+					<date><![CDATA[2012 . 07]]></date>
+					<client><![CDATA[NATIONAL CANCER CENTER]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb10.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info10.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/National Center Information Center/b_type_mobile.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[KD NAVIEN AMERICAN WEBSITE]]></title>
+					<date><![CDATA[2012 . 06]]></date>
+					<client><![CDATA[KYUNG DONG NAVIEN]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb14.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info14.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Kyung Dong Navien/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[KAC - AIRPORT PLANNER]]></title>
+					<date><![CDATA[2012 . 06]]></date>
+					<client><![CDATA[KOREA AIRPORTS CORPORATION]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb12.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info12.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Korea Airports Corporation/a_type_potal.html]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[KAC - KIMPO AIRPORT]]></title>
+					<date><![CDATA[2012 . 06]]></date>
+					<client><![CDATA[KOREA AIRPORTS CORPORATION]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb13.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info13.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Korea Airports Corporation/a_type_airport.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SNOWMAN MVNO]]></title>
+					<date><![CDATA[2012 . 05]]></date>
+					<client><![CDATA[ONSE TELECOM]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb11.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info11.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Onse Telecom/a_type_shop_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[NEWBARANCE SHOPPING MALL]]></title>
+					<date><![CDATA[2012 . 05]]></date>
+					<client><![CDATA[ELAND]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb15.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info15.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/eland/b_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SIREN 24 PERSONAL]]></title>
+					<date><![CDATA[2012 . 05]]></date>
+					<client><![CDATA[SCI]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb16.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info16.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/SCI/a_type_personal_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[BIZSIREN ENTERPRISE]]></title>
+					<date><![CDATA[2012 . 05]]></date>
+					<client><![CDATA[SCI]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb17.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info17.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/SCI/a_type_enterprise_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[WEBSITE RENEWAL - B TYPE]]></title>
+					<date><![CDATA[2012 . 05]]></date>
+					<client><![CDATA[HYUNDAI CARD]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb18.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info18.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Hyundai Card/b_type_main.html]]></linkURL>
+				</item>
+			</group>
+			
+
+			<group>
+				<item>
+					<title><![CDATA[SAMSUNG FUND WEBSITE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[SAMSUNG ASSET MANAGEMENT]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb19.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info19.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/samsung fund/a_type_fund_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[SANSUNG KODEX WEBSITE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[SAMSUNG ASSET MANAGEMENT]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb20.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info20.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/samsung fund/a_type_kodex_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[PKMR WEBSITE - A TYPE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[ECMD]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb21.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info21.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/ECMD/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[PKMR WEBSITE - B TYPE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[ECMD]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb22.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info22.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/ECMD/b_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[I-SKY MOBILE - A TYPE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[PANTECH]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb27.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info27.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/pantech/a_type_mobile_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[I-SKY WEBSITE - B TYPE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[PANTECH]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb28.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info28.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/pantech/b_type_main.html]]></linkURL>
+				</item>
+			</group>
+
+
+			<group>
+				<item>
+					<title><![CDATA[I-SKY WEBSITE - C TYPE]]></title>
+					<date><![CDATA[2012 . 03]]></date>
+					<client><![CDATA[PANTECH]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb26.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info26.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/pantech/c_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[WEBSITE RENEWAL - A TYPE]]></title>
+					<date><![CDATA[2012 . 02]]></date>
+					<client><![CDATA[HYUNDAI CARD]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb23.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info23.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Hyundai Card/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[GIVE START - A TYPE]]></title>
+					<date><![CDATA[2012 . 02]]></date>
+					<client><![CDATA[GOOD NEIGHBORS]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb24.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info24.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Good Neightbors/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[GIVE START - C TYPE]]></title>
+					<date><![CDATA[2012 . 02]]></date>
+					<client><![CDATA[GOOD NEIGHBORS]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb25.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info25.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/Good Neightbors/c_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[ONSE MVNO]]></title>
+					<date><![CDATA[2012 . 01]]></date>
+					<client><![CDATA[ONSE TELECOM]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb29.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info29.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/onse MVNO/a_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[CJ BRAND - B TYPE]]></title>
+					<date><![CDATA[2011 . 12]]></date>
+					<client><![CDATA[CJ CHEIL JEDANG]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb30.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info30.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/CJ CHEILJEDANG/b_type_main.html]]></linkURL>
+				</item>
+			</group>
+			
+
+			<group>
+				<item>
+					<title><![CDATA[CJ BRAND - C TYPE]]></title>
+					<date><![CDATA[2011 . 12]]></date>
+					<client><![CDATA[CJ CHEIL JEDANG]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb31.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info31.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/CJ CHEILJEDANG/c_type_main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[TVING WEBSITE RENEWAL]]></title>
+					<date><![CDATA[2011 . 10]]></date>
+					<client><![CDATA[CJ HELLOVISION]]></client>
+					<thumb><![CDATA[img/work/proposal/thumb/thumb32.png]]></thumb>
+					<info><![CDATA[img/work/proposal/info/info32.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/flash/proposal/CJ HELLOVISION/b_type_web_main.html]]></linkURL>
+				</item>
+			</group>
+		</category>
+
+
+		
+		<category type="html">
+			<group>
+				<item>
+					<title><![CDATA[CSK]]></title>
+					<date><![CDATA[2013 . 09]]></date>
+					<client><![CDATA[PRACTICE]]></client>
+					<thumb><![CDATA[img/work/html/thumb/thumb00.png]]></thumb>
+					<info><![CDATA[img/work/html/info/info00.png]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[portfolio/html/csk/main.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[ROLLING BANNER]]></title>
+					<date><![CDATA[2013 . 04]]></date>
+					<client><![CDATA[PRACTICE]]></client>
+					<thumb><![CDATA[img/work/html/thumb/thumb01.png]]></thumb>
+					<info><![CDATA[img/work/html/info/info01.png]]></info>
+					<linkURL linkTarget="rollingBanner"><![CDATA[portfolio/html/banner/banner.html]]></linkURL>
+				</item>
+				<item>
+					<title><![CDATA[KOREA RENTAL]]></title>
+					<date><![CDATA[2013 . 02]]></date>
+					<client><![CDATA[KOREA RENTAL CORP.]]></client>
+					<thumb><![CDATA[img/work/html/thumb/thumb02.jpg]]></thumb>
+					<info><![CDATA[img/work/html/info/info02.jpg]]></info>
+					<linkURL linkTarget="_blank"><![CDATA[http://www.korearental.co.kr/]]></linkURL>
+				</item>
+			</group>
+		</category>
+
+
+
+	</work>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<favorite>
+
+
+		<group>
+
+			<item>
+				<title><![CDATA[6TH EXHIBITION SKYMARBLE]]></title>
+				<thumb><![CDATA[img/favorite/favorite00.png]]></thumb>
+				<linkURL><![CDATA[http://www.skymarble.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[PANOPLIE]]></title>
+				<thumb><![CDATA[img/favorite/favorite06.png]]></thumb>
+				<linkURL><![CDATA[http://www.panoplie.fr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[NEMOWORLD]]></title>
+				<thumb><![CDATA[img/favorite/favorite05.png]]></thumb>
+				<linkURL><![CDATA[http://www.nemoworld.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[7REVONS]]></title>
+				<thumb><![CDATA[img/favorite/favorite03.png]]></thumb>
+				<linkURL><![CDATA[http://7revons.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[CREATIVE GROUP NEWTURN]]></title>
+				<thumb><![CDATA[img/favorite/favorite09.png]]></thumb>
+				<linkURL><![CDATA[http://www.newturngroup.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[INTERMETS]]></title>
+				<thumb><![CDATA[img/favorite/favorite07.png]]></thumb>
+				<linkURL><![CDATA[http://www.in-ins.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[CREATIVE SOUL]]></title>
+				<thumb><![CDATA[img/favorite/favorite01.png]]></thumb>
+				<linkURL><![CDATA[http://www.creativesoul.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[MOTION WAVE VERSION THREE]]></title>
+				<thumb><![CDATA[img/favorite/favorite02.png]]></thumb>
+				<linkURL><![CDATA[http://motion-wave.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[SWITCH MEDIAWORKS]]></title>
+				<thumb><![CDATA[img/favorite/favorite08.png]]></thumb>
+				<linkURL><![CDATA[http://www.switchmw.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[Design+Fun]]></title>
+				<thumb><![CDATA[img/favorite/favorite04.png]]></thumb>
+				<linkURL><![CDATA[http://defun.cafe24.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[HELLO DAVE]]></title>
+				<thumb><![CDATA[img/favorite/favorite15.png]]></thumb>
+				<linkURL><![CDATA[http://www.hellodave.se/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[THE CREX]]></title>
+				<thumb><![CDATA[img/favorite/favorite11.png]]></thumb>
+				<linkURL><![CDATA[http://thecrex.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[CREA.M UNION]]></title>
+				<thumb><![CDATA[img/favorite/favorite12.png]]></thumb>
+				<linkURL><![CDATA[http://www.crea-m.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[HS AD]]></title>
+				<thumb><![CDATA[img/favorite/favorite13.png]]></thumb>
+				<linkURL><![CDATA[http://www.hsad.co.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[BRAVE DESIGN]]></title>
+				<thumb><![CDATA[img/favorite/favorite14.png]]></thumb>
+				<linkURL><![CDATA[http://www.bravedesign.co.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[ADQUA]]></title>
+				<thumb><![CDATA[img/favorite/favorite10.png]]></thumb>
+				<linkURL><![CDATA[http://www.adqua.co.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[CLOUD9 CREATIVE]]></title>
+				<thumb><![CDATA[img/favorite/favorite16.png]]></thumb>
+				<linkURL><![CDATA[http://www.cloud9.co.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[DESIGNPOP]]></title>
+				<thumb><![CDATA[img/favorite/favorite17.png]]></thumb>
+				<linkURL><![CDATA[http://www.designpop.co.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[ROKKABOY]]></title>
+				<thumb><![CDATA[img/favorite/favorite18.png]]></thumb>
+				<linkURL><![CDATA[http://www.rokkaboy.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[SIVER PISTOL]]></title>
+				<thumb><![CDATA[img/favorite/favorite19.png]]></thumb>
+				<linkURL><![CDATA[http://www.silverpistol.com/]]></linkURL>
+			</item>
+		</group>
+
+		<group>
+			<item>
+				<title><![CDATA[SHADE2012]]></title>
+				<thumb><![CDATA[img/favorite/favorite20.png]]></thumb>
+				<linkURL><![CDATA[http://www.shade2012.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[FRAMEI]]></title>
+				<thumb><![CDATA[img/favorite/favorite21.png]]></thumb>
+				<linkURL><![CDATA[http://www.framei.com]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[RTCFF.RANSUZ]]></title>
+				<thumb><![CDATA[img/favorite/favorite22.png]]></thumb>
+				<linkURL><![CDATA[http://ransuz.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[DESIGN GARAGE]]></title>
+				<thumb><![CDATA[img/favorite/favorite23.png]]></thumb>
+				<linkURL><![CDATA[http://design-garage.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[FUNPPY]]></title>
+				<thumb><![CDATA[img/favorite/favorite24.png]]></thumb>
+				<linkURL><![CDATA[http://funppy.com/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[CRESTYLE]]></title>
+				<thumb><![CDATA[img/favorite/favorite25.png]]></thumb>
+				<linkURL><![CDATA[http://crestyle.net/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[HOONI]]></title>
+				<thumb><![CDATA[img/favorite/favorite26.png]]></thumb>
+				<linkURL><![CDATA[http://www.hooni.co1.kr/]]></linkURL>
+			</item>
+			<item>
+				<title><![CDATA[WERTY]]></title>
+				<thumb><![CDATA[img/favorite/favorite27.png]]></thumb>
+				<linkURL><![CDATA[http://www.werty.co.kr/]]></linkURL>
+			</item>
+		</group>
+
+
+
+
+	</favorite>
+
+
+
+
+</xml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

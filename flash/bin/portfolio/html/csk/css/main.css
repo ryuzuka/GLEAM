@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {background:url("../img/pattern_bg.png");}
+
+#main {position:relative; width:3600px; height:2400px; margin:0 auto; overflow:hidden;}
+
+    #header {float:left; position:absolute; width:200px; height:800px; background:url("../img/bg.png") repeat-y; z-index:1}
+    #header .logo {position:absolute; left:28px; top:76px;}
+    
+    #header .gnb {position:absolute; left:28px; top:159px;}
+    #header .gnb .depth1 {width:144px; padding-bottom:8px; background:url("../img/menu_line.png")  no-repeat 0px 22px; border:0px solid #666666;}
+    #header .gnb .depth1 .menu {position:relative; display:inline-block; height:24px; left:2px;}
+    #header .gnb .depth1 .depth2 {position:relative; overflow:hidden; left:3px; background:url("../img/menu_line.png")  no-repeat 0px bottom;}
+    #header .gnb .depth1 .depth2 li {height:16px; margin-bottom:2px;}
+    #header .gnb .firstLi {margin-top:6px;}
+    #header .gnb .lastLi {padding-bottom:7px;}
+    
+    #container {position:absolute; height:800px; left:200px;}
+    #container .rect {position:absolute; width:0px; height:0px; overflow:hidden;}
+    
+    #container .rect.white{background-color:#ffffff;}
+    #container .rect.red{background:url("../img/pattern_red.png");}
+    #container .rect.black{background:url("../img/pattern_black.png");}
+    #container .rect.gray{background:url("../img/pattern_gray.png");}
+    
+        #box0 .title {position:absolute; top:82px; left:80px;}
+        #box0 .text {position:absolute; top:95px; left:66px;}
+        
+        #box1 .cbTitleInfo {position:absolute; top:26px; left:20px;}
+        #box1 .dateTxt {position:absolute; font-family:"dotum"; font-size:12px; color:#999999; left:19px; top:73px;}
+        #box1 .desTxt {position:absolute; font-family:"dotum"; font-size:11px ;color:#999999; left:19px; top:91px; width:160px; line-height:13px;}
+        #box1 .cbTitleMore {position:absolute; top:166px; left:19px;}
+        
+        #box2 .title {position:absolute; top:93px; left:82px;}
+        
+        #box3 .title {position:absolute; top:82px; left:80px;}
+        #box3 .text {position:absolute; top:95px; left:62px;}
+        
+        #box4 .title {position:absolute; top:82px; left:90px;}
+        #box4 .text {position:absolute; top:95px; left:63px;}
+        
+        #box5 .title {position:absolute; top:52px; left:77px;}
+        #box5 .text {position:absolute; top:74px; left:51px;}
+        
+        #box6 .title {position:absolute; top:82px; left:78px;}
+        #box6 .text {position:absolute; top:95px; left:68px;}
+        
+        #box7 .title {position:absolute; top:93px; left:68px;}
+        
+        #box8 .title {position:absolute; top:93px; left:55px;}
+        
+        #box9 .title {position:absolute; top:82px; left:90px;}
+        #box9 .text {position:absolute; top:95px; left:61px;}
+        
+        #box9 .title {position:absolute; top:82px; left:90px;}
+        #box9 .text {position:absolute; top:95px; left:61px;}
+        
+        #box10 .title {position:absolute; top:93px; left:56px;}
+        
+        #box11 .cbTitleInfo {position:absolute; top:26px; left:20px;}
+        #box11 .dateTxt {position:absolute; font-family:"dotum"; font-size:12px; color:#999999; left:19px; top:73px;}
+        #box11 .desTxt {position:absolute; font-family:"dotum"; font-size:11px ;color:#999999; left:19px; top:91px; width:160px; line-height:13px;}
+        #box11 .cbTitleMore {position:absolute; top:166px; left:19px;}
+        
+        #box12 .title {position:absolute; top:61px; left:87px;}
+        
+        #box14 .title {position:absolute; top:82px; left:80px;}
+        #box14 .text {position:absolute; top:95px; left:80px;}
+        
+        #box15 .title {position:absolute; top:82px; left:82px;}
+        #box15 .text {position:absolute; top:95px; left:78px;}
+        
+        #box16 .title {position:absolute; top:61px; left:74px;}
+        
+        #box18 .cbTitleInfo {position:absolute; top:25px; left:27px; overflow:hidden;}
+        #box18 .desTxt {position:absolute; font-family:"dotum"; font-size:11px; color:#999999;}
+        #box18 .desTxt.single {display:block; left:26px; top:42px; width:160px; line-height:16px;}
+        #box18 .desTxt.double {display:block; left:28px; top:69px; width:340px; line-height:16px;}
+                
+        #box19 .title {position:absolute; top:82px; left:84px;}
+        #box19 .text {position:absolute; top:95px; left:80px;}
+        
+        #box20 .title {position:absolute; top:61px; left:82px;}
+     
+    
+    
+    
+    #nav {position:absolute; opacity:0; z-index:4;}
+    #nav .button {float:left; cursor:pointer;}
+    
+    #highlight {position:absolute; z-index:3; overflow:hidden; width:1200px; height:2400px;}
+        .highlightContainer {position:absolute;}
+        
+            .bgContainer {position:absolute;}
+            .bgContainer .bg {position:absolute;}
+            .bgContainer .bg1 {left:0px;}
+            .bgContainer .bg2 {left:1200px;}
+            .bgContainer .bg3 {left:2400px;}
+        
+            .titleContainer {position:absolute; left:600px; top:82px;}
+            .titleContainer .title {position:absolute; opacity:0;}
+            .titleContainer .title .main {position:absolute;}
+            .titleContainer .title .sub {position:absolute; top:86px;}
+            .titleContainer .title .main.title1 {left:-85px;}
+            .titleContainer .title .main.title2 {left:-168px;}
+            .titleContainer .title .main.title3 {left:-109px;}
+            .titleContainer .title .sub.title1 {left:-73px;}
+            .titleContainer .title .sub.title2 {left:-50px;}
+            .titleContainer .title .sub.title3 {left:-79px;}
+    
+            .controller {position:absolute; top:220px; left:578px;}
+            .controller .dot {position:absolute; cursor:pointer;}
+            .controller .dot.dot1 {left:0px;}
+            .controller .dot.dot2 {left:17px;}
+            .controller .dot.dot3 {left:33px;}
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

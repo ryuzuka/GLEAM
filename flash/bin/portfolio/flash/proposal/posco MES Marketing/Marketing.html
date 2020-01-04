@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Marketing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css" media="screen">
+		
+		
+
+
+		</style>
+		
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script>
+			
+
+			function getFlashMovieObject(movieName) {
+				if ( window.document[movieName] ) {
+					return window.document[movieName];
+				}
+				if ( navigator.appName.indexOf("Microsoft Internet") == -1 ) {
+					if ( document.embeds && document.embeds[movieName] )
+						return document.embeds[movieName];
+				} else // if (navigator.appName.indexOf("Microsoft Internet")!=-1)
+				{
+					return document.getElementById(movieName);
+				}
+			}
+
+			function flashResize()
+			{
+				if (document.body.clientHeight < 747) {
+					try{getFlashMovieObject('media').style.height = "747px"}catch(e){}
+				} else {
+					try{getFlashMovieObject('media').style.height = "100%";}catch(e){}
+
+				}
+			}
+		</script>
+
+	</head>
+	<body style="margin:0px; background-color:#FFFFFF;" onLoad="javascript:flashResize();" onResize="javascript:flashResize();">
+		<div id="media"><!-- DIV로 플래시를 반드시 감싸야합니다. -->
+			<script>
+				var hei = document.body.clientHeight
+				if(hei < 747) hei = 747;
+
+				//Flash Vars설명
+				//xmlPath - cyonEventMain.xml의 URL
+				//fontPath - Yoon340.swf의 URL
+				//menuIndex - -100:인트로, 0:크리슈머와 함께, 1:다함께 축하해요, 2:다함께 만들어요, 3:다함께 다운로드
+
+				//var flashVars;
+				//flashVars="xmlPath=xml/cyonEventMain.xml&fontPath=Yoon340.swf&menuIndex=-100"
+				//flashObject('openEvent', 'openEvent.swf', '100%', '100%', flashVars, '#000000', 'transparent');
+
+				var fVars = {};
+				var params = { scale:'noScale', salign:'t', menu:'false',allowscriptaccess:'always', bgcolor:'#FFFFFF', wmode:'window',allowNetworking:'all' ,quality:"best"};
+				//** allowScripAccess는 같은 도메인의 swf인 경우 sameDomain, 다른 도메인의 swf인 경우 always로 지정해야한다. allowNetworking은 항상 all로 설정해야한다
+
+				var attributes = {}; // give an id to the flash object
+
+				var tempHeight;
+				if (document.body.clientHeight < 747) {
+					tempHeight="747";
+				}else{
+					tempHeight="100%";
+				}
+				var divId = "media";	//flash를 감싸고 있는 div id;	
+				swfobject.embedSWF("Marketing.swf", divId, "100%", tempHeight, "10.0.0", "js/expressInstall.swf", fVars, params, attributes );
+				
+			</script>
+		 </div>
+	</body>
+</html>

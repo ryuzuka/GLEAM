@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<TITLE> DigitalFlow </TITLE>
+		<META NAME="Author" CONTENT="">
+		<META NAME="Keywords" CONTENT="">
+		<META NAME="Description" CONTENT="">
+		<script>
+
+			function flashString(mID, mUrl, mWidth, mHeight, mParams, mBGcolor, mWmode)
+			{
+				var buff = [];
+				buff.push("<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,2,0,0' width='" + mWidth + "' height='" + mHeight + "' id='" + mID + "' align='middle'>");
+				buff.push("<param name='allowScriptAccess' value='always' />");
+				buff.push("<param name='allowFullScreen' value='true' />");
+				buff.push("<param name='movie' value='" + mUrl + "' />");
+				buff.push("<param name='FlashVars' value='" + mParams + "' />");
+				buff.push("<param name='quality' value='high' />");
+				buff.push("<param name='wmode' value='" + mWmode + "' />");
+				buff.push("<param name='bgcolor' value='" + mBGcolor + "' />");
+				buff.push("<embed src='" + mUrl + "' FlashVars='" + mParams + "' quality='high' wmode='" + mWmode + "' bgcolor='" + mBGcolor + "' width='" + mWidth + "' height='" + mHeight + "' name='" + mID + "' align='middle' allowScriptAccess='always' allowFullScreen='false' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' />");
+				buff.push("</object>");
+				
+				return buff.join("");
+			}
+
+			function flashObject(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode)
+			{
+				document.write(flashString(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode));
+			}
+
+		</script>
+	</HEAD>
+
+	 <BODY style='margin:0px; background-color:#ffffff'>
+		<div id="flashWrapper">
+			<script>
+				var flashVars = '';
+				flashObject('DigitalFlow', 'index.swf', '100%', '100%', flashVars, '#ffffff', 'window');
+			</script>
+		</div>
+	 </BODY>
+
+</HTML>

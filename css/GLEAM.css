@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* { padding: 0px; margin: 0px; border: 0 }
+li { list-style: none }
+a { text-decoration: none }
+img { vertical-align: top }
+p.textIndent { text-indent: -9999px; height: 0px }
+
+body { overflow: hidden; background-color: #fdfdfd; color: #888; font-family: Verdana, Tahoma; font-size: 11px }
+
+#curtain { position: fixed; left: 0px; top: 0px; z-index: 999 }
+#curtain .black { position: absolute; width: 50%; height: 100%; background: #000 }
+#curtain .line { position: absolute; width: 11px; height: 100%; background: url( /GLEAM/image/line_vertical.gif ) }
+#curtain .mask { position: absolute; width: 100%; height: 100%; background: #000 }
+#curtain .emblem { position: absolute; width: 34px; height: 42px; opacity: 0; background: url( /GLEAM/image/emblem.png ) no-repeat }
+
+#ryuzukaWrap { position: fixed; left: 0px; top: 0px; z-index: 100 }
+#ryuzukaWrap .ryuzuka { position: absolute; opacity: 0 }
+#ryuzukaWrap .ryuzuka { perspective: 1000px; -webkit-perspective: 1000px; }
+#ryuzukaWrap .ryuzuka { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+#ryuzukaWrap .ryuzuka { transform: translate3d( 0px, 0px, 0px ); -webkit-transform: translate3d( 0px, 0px, 0px ) }
+#ryuzukaWrap .ryuzuka .ryuzuka3d { width: 334px; height: 420px; overflow: hidden; text-indent: 100%; background: url( /GLEAM/image/ryuzuka.png ) no-repeat }
+
+#header { position: fixed; width: 100%; z-index: 998 }
+#header .bg { position: absolute; top: -121px; width: 100%; height: 120px }
+#header .nav { position: relative; display: inline-block; width: 262px; height: 80px; overflow: hidden }
+#header .nav .title { position: relative; top: -50px; width: 147px; height: 35px; margin: 0 auto }
+#header .nav .gnb { position: relative; top: 45px; height: 18px }
+
+#content { position: relative; display: inline-block; z-index: 996 }
+#content { perspective: 1000px; -webkit-perspective: 1000px; }
+#content { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+
+#footer { position: fixed; bottom: -21px; width: 100%; z-index: 997 }
+#footer .bg { position: absolute; width: 100%; height: 20px }
+#footer .copyright { position: relative; width: 275px; margin: 0 auto; margin-top: 7px }
+
+.bg .solid { height: 100%; opacity: 0.7; background-color: #eee }
+.bg .border { height: 1px; background: #ddd }

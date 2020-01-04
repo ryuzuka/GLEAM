@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<TITLE>B2Y MIST</TITLE>
+		<META NAME="Author" CONTENT="">
+		<META NAME="Keywords" CONTENT="">
+		<META NAME="Description" CONTENT="">
+		<script>
+
+			//self.moveTo(0,0); 
+			//self.resizeTo(screen.availWidth,screen.availHeight);	//----------------------------브라우저 최대화
+
+			function flashString(mID, mUrl, mWidth, mHeight, mParams, mBGcolor, mWmode)
+			{
+				var buff = [];
+				buff.push("<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,2,0,0' width='" + mWidth + "' height='" + mHeight + "' id='" + mID + "' align='middle'>");
+				buff.push("<param name='allowScriptAccess' value='always' />");
+				buff.push("<param name='allowFullScreen' value='true' />");
+				buff.push("<param name='movie' value='" + mUrl + "' />");
+				buff.push("<param name='FlashVars' value='" + mParams + "' />");
+				buff.push("<param name='quality' value='high' />");
+				buff.push("<param name='wmode' value='" + mWmode + "' />");
+				buff.push("<param name='bgcolor' value='" + mBGcolor + "' />");
+				buff.push("<embed src='" + mUrl + "' FlashVars='" + mParams + "' quality='high' wmode='" + mWmode + "' bgcolor='" + mBGcolor + "' width='" + mWidth + "' height='" + mHeight + "' name='" + mID + "' align='middle' allowScriptAccess='always' allowFullScreen='false' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' />");
+				buff.push("</object>");
+				
+				return buff.join("");
+			}
+
+			function flashObject(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode)
+			{
+				document.write(flashString(mID, mUrl, mWidth, mHeight, mParam, mBGcolor, mWmode));
+			}
+
+
+
+
+			function getFlashMovieObject(movieName)
+			{
+				if ( window.document[movieName] )
+				{
+					return window.document[movieName];
+				}
+				if ( navigator.appName.indexOf("Microsoft Internet") == -1 )
+				{
+					if ( document.embeds && document.embeds[movieName] )
+					{
+						return document.embeds[movieName];
+					}
+				}
+				else	// if (navigator.appName.indexOf("Microsoft Internet")!=-1)
+				{
+					return document.getElementById(movieName);
+				}
+			}
+
+
+		</script>
+	</HEAD>
+
+
+
+
+	 <BODY style='margin:0px; background-color:#000000'>
+		<div id="flashWrapper"><!-- DIV로 플래시를 반드시 감싸야합니다. -->
+			<script>
+				var flashVars = 'xmlPath=./xml/link.xml';
+				flashObject('main', 'main.swf', '100%', '700', flashVars, '#ffffff', 'window');
+			</script>
+		</div>
+	</BODY>
+
+
+
+
+</HTML>

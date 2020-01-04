@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<infoBanner>
+	<event name="이벤트">
+		<item>
+			<image><![CDATA[image/event01.jpg]]></image>
+			<subject><![CDATA[<b>여수엑스포<br>성공기원 행운이벤트</b>]]></subject>
+			<content><![CDATA[2012.06.18 ~ 2012.08.31]]></content>
+			<linkURL target="_self"><![CDATA[javascript:alert("여수엑스포 성공기원 행운이벤트")]]></linkURL>
+		</item>
+		<item>
+			<image><![CDATA[image/event02.jpg]]></image>
+			<subject><![CDATA[<b>1차 티켓오픈<br>15% 할인특가!<b>]]></subject>
+			<content><![CDATA[2012.05.20 ~ 2012.06.30]]></content>
+			<linkURL target="_self"><![CDATA[javascript:alert("1차 티켓오픈15% 할인특가!")]]></linkURL>
+		</item>
+	</event>
+	<notice name="공지">
+		<item>
+			<image><![CDATA[image/notice02.jpg]]></image>
+			<subject><![CDATA[<b>여수 엑스포<br>살아있는 바다, 숨쉬는 연안<b>]]></subject>
+			<content><![CDATA[엑스포 홍보]]></content>
+			<linkURL target="_self"><![CDATA[javascript:alert("여수 엑스포 살아있는 바다, 숨쉬는 연안")]]></linkURL>
+		</item>
+		<item>
+			<image><![CDATA[image/notice01.jpg]]></image>
+			<subject><![CDATA[<b>아이유가 부르는<br>여수 세계 박람회 로고송</b>]]></subject>
+			<content><![CDATA[엑스포 홍보]]></content>
+			<linkURL target="_self"><![CDATA[javascript:alert("아이유가 부르는 여수 세계 박람회 로고송")]]></linkURL>
+		</item>
+	</notice>
+	<sightseeing name="관람/관광">
+		<map>
+			<main>
+				<subject><![CDATA[<b>관람서비스 안내</b>]]></subject>
+				<content><![CDATA[24개의 테마별 전시관 및 야외 행사장에서 하루 50여개 재미있는 행사와 공연을 진행하고 있습니다.]]></content>
+			</main>
+			<sub>
+				<category>
+					<subject><![CDATA[<b>관람코스</b>]]></subject>					
+					<news>
+						<subject><![CDATA[체험/교육]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("체험/교육")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[바다특화]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("바다특화")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[올라운드]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("올라운드")]]></linkURL>
+					</news>
+					<course>
+						<BG><![CDATA[image/course1.jpg]]></BG>
+						<area type="1">
+							<idx><![CDATA[PAV0000010]]></idx>
+							<subject><![CDATA[<b><u>국제관</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000011]]></idx>
+							<subject><![CDATA[<b><u>한국관</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('한국관')]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000020]]></idx>
+							<subject><![CDATA[<b><u>공연행사3</u></b>]]></subject>
+							<where><![CDATA[장소3]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사3")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000021]]></idx>
+							<subject><![CDATA[<b><u>공연행사4</u></b>]]></subject>
+							<where><![CDATA[장소4]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사4")]]></more>
+						</area>
+					</course>
+					<course>
+						<BG><![CDATA[image/course2.jpg]]></BG>
+						<area type="1">
+							<idx><![CDATA[PAV0000005]]></idx>
+							<subject><![CDATA[<b><u>스카이타워</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('스카이타워')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000006]]></idx>
+							<subject><![CDATA[<b><u>독립기업관</u></b>]]></subject>
+							<content><![CDATA[해양의 다양성과 아름다움 연안(갯벌)과 바다속의 해양생물의 신비와 아름다움을 보여주고 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('독립기업관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000007]]></idx>
+							<subject><![CDATA[<b><u>해양문명도시관</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이유별로 특화(해양문명)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양문명도시관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000008]]></idx>
+							<subject><![CDATA[<b><u>엑스포갤러리</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이슈별로 특화(기후환경)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('엑스포갤러리')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000009]]></idx>
+							<subject><![CDATA[<b><u>국제관</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제관')]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000019]]></idx>
+							<subject><![CDATA[<b><u>공연행사2</u></b>]]></subject>
+							<where><![CDATA[장소2]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사2")]]></more>
+						</area>
+					</course>
+					<course>
+						<BG><![CDATA[image/course3.jpg]]></BG>
+						<area type="1">
+							<idx><![CDATA[PAV0000013]]></idx>
+							<subject><![CDATA[<b><u>기후환경관</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이슈별로 특화(기후환경)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('기후환경관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000014]]></idx>
+							<subject><![CDATA[<b><u>지자체관</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('지자체관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000015]]></idx>
+						<subject><![CDATA[<b><u>해양생물관/아쿠아리움</u></b>]]></subject>
+						<content><![CDATA[해양의 다양성과 아름다움 연안(갯벌)과 바다속의 해양생물의 신비와 아름다움을 보여주고 ...]]></content>
+						<more target="_self"><![CDATA[javascript:alert('해양생물관/아쿠아리움')]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000023]]></idx>
+							<subject><![CDATA[<b><u>공연행사6</u></b>]]></subject>
+							<where><![CDATA[장소6]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사6")]]></more>
+						</area>
+					</course>
+					<course>
+						<BG><![CDATA[image/course4.jpg]]></BG>
+						<area type="1">
+							<idx><![CDATA[PAV0000001]]></idx>
+							<subject><![CDATA[<b><u>에너지파크</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('에너지파크')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000002]]></idx>
+							<subject><![CDATA[<b><u>수산체험장(육상)</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('수산체험장(육상)')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000003]]></idx>
+							<subject><![CDATA[<b><u>국제기구관/기업연합관</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제기구관/기업연합관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000004]]></idx>
+						<subject><![CDATA[<b><u>국제기구관</u></b>]]></subject>
+							<content><![CDATA[해양 및 환경과 관련하여 국제사회에서 활발하게 활동하고 있는 해양 및 지구환경과...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제기구관')]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000018]]></idx>
+							<subject><![CDATA[<b><u>공연행사1</u></b>]]></subject>
+							<where><![CDATA[장소1]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사1")]]></more>
+						</area>
+					</course>
+					<course>
+						<BG><![CDATA[image/course5.jpg]]></BG>
+						<area type="1">
+							<idx><![CDATA[PAV0000012]]></idx>
+							<subject><![CDATA[<b><u>해양베스트관</u></b>]]></subject>
+							<content><![CDATA[주제관과 호 응하여 엑스포의 메시지를 전하는 심장부]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양베스트관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000016]]></idx>
+							<subject><![CDATA[<b><u>해양산업기술관</u></b>]]></subject>
+							<content><![CDATA[박람회의 '주제'(살아있는 바다, 숨쉬는 연안)를 함축적으로 구현하는 핵심공간]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양산업기술관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000017]]></idx>
+							<subject><![CDATA[<b><u>수산체험장(해상)</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('수산체험장(해상)')]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000022]]></idx>
+							<subject><![CDATA[<b><u>공연행사5</u></b>]]></subject>
+							<where><![CDATA[장소5]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사5")]]></more>
+						</area>
+					</course>
+				</category>
+
+				<category>
+					<subject><![CDATA[<b>전시관</b>]]></subject>
+					<news>
+						<subject><![CDATA[국제관]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("국제관")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[주제관]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("주제관")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[한국관]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("한국관")]]></linkURL>
+					</news>
+					<course>
+						<area type="1">
+							<idx><![CDATA[PAV0000010]]></idx>
+							<subject><![CDATA[<b><u>국제관</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000011]]></idx>
+							<subject><![CDATA[<b><u>한국관</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('한국관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000005]]></idx>
+							<subject><![CDATA[<b><u>스카이타워</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('스카이타워')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000006]]></idx>
+							<subject><![CDATA[<b><u>독립기업관</u></b>]]></subject>
+							<content><![CDATA[해양의 다양성과 아름다움 연안(갯벌)과 바다속의 해양생물의 신비와 아름다움을 보여주고 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('독립기업관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000007]]></idx>
+							<subject><![CDATA[<b><u>해양문명도시관</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이유별로 특화(해양문명)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양문명도시관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000008]]></idx>
+							<subject><![CDATA[<b><u>엑스포갤러리</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이슈별로 특화(기후환경)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('엑스포갤러리')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000009]]></idx>
+							<subject><![CDATA[<b><u>국제관</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000013]]></idx>
+							<subject><![CDATA[<b><u>기후환경관</u></b>]]></subject>
+							<content><![CDATA[상위 주제를 핵심 이슈별로 특화(기후환경)한 전시관]]></content>
+							<more target="_self"><![CDATA[javascript:alert('기후환경관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000014]]></idx>
+							<subject><![CDATA[<b><u>지자체관</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('지자체관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000015]]></idx>
+						<subject><![CDATA[<b><u>해양생물관/아쿠아리움</u></b>]]></subject>
+						<content><![CDATA[해양의 다양성과 아름다움 연안(갯벌)과 바다속의 해양생물의 신비와 아름다움을 보여주고 ...]]></content>
+						<more target="_self"><![CDATA[javascript:alert('해양생물관/아쿠아리움')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000001]]></idx>
+							<subject><![CDATA[<b><u>에너지파크</u></b>]]></subject>
+							<content><![CDATA[해양한국의 특징과 가치를 재조명하여 해양한국의 미래비전을 제시하고 자긍심을...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('에너지파크')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000002]]></idx>
+							<subject><![CDATA[<b><u>수산체험장(육상)</u></b>]]></subject>
+							<content><![CDATA[박람회 참가 국가가 직접 전시물을 기획ㆍ전시하는 시설 (가장 큰 면적을 차지)로서 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('수산체험장(육상)')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000003]]></idx>
+							<subject><![CDATA[<b><u>국제기구관/기업연합관</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제기구관/기업연합관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000004]]></idx>
+						<subject><![CDATA[<b><u>국제기구관/기업연합관</u></b>]]></subject>
+							<content><![CDATA[해양 및 환경과 관련하여 국제사회에서 활발하게 활동하고 있는 해양 및 지구환경과...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('국제기구관/기업연합관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000012]]></idx>
+							<subject><![CDATA[<b><u>해양베스트관</u></b>]]></subject>
+							<content><![CDATA[주제관과 호 응하여 엑스포의 메시지를 전하는 심장부]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양베스트관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000016]]></idx>
+							<subject><![CDATA[<b><u>해양산업기술관</u></b>]]></subject>
+							<content><![CDATA[박람회의 '주제'(살아있는 바다, 숨쉬는 연안)를 함축적으로 구현하는 핵심공간]]></content>
+							<more target="_self"><![CDATA[javascript:alert('해양산업기술관')]]></more>
+						</area>
+						<area type="1">
+							<idx><![CDATA[PAV0000017]]></idx>
+							<subject><![CDATA[<b><u>수산체험장(해상)</u></b>]]></subject>
+							<content><![CDATA[조선·해양, 첨단 IT 및 녹색성장산업의 현재와 미래를 보여주는 전시관으로 참가기업의 ...]]></content>
+							<more target="_self"><![CDATA[javascript:alert('수산체험장(해상)')]]></more>
+						</area>
+					</course>
+				</category>
+
+				<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+				
+	            <category>
+
+					 <subject><![CDATA[<b>공연/행사</b>]]></subject>
+
+					<news>																																								
+						<subject><![CDATA[가족들과 함께 즐기는 문화]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("가족들과 함께 즐기는 문화")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[바다 그리고 자연 이제는]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("바다 그리고 자연 이제는")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[National day]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("National day")]]></linkURL>
+					</news>
+					
+					<course>
+						<area type="2">
+							<idx><![CDATA[PAV0000018]]></idx>
+							<subject><![CDATA[<b><u>공연행사1</u></b>]]></subject>
+							<where><![CDATA[장소1]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사1")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000019]]></idx>
+							<subject><![CDATA[<b><u>공연행사2</u></b>]]></subject>
+							<where><![CDATA[장소2]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사2")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000020]]></idx>
+							<subject><![CDATA[<b><u>공연행사3</u></b>]]></subject>
+							<where><![CDATA[장소3]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사3")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000021]]></idx>
+							<subject><![CDATA[<b><u>공연행사4</u></b>]]></subject>
+							<where><![CDATA[장소4]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사4")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000022]]></idx>
+							<subject><![CDATA[<b><u>공연행사5</u></b>]]></subject>
+							<where><![CDATA[장소5]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사5")]]></more>
+						</area>
+						<area type="2">
+							<idx><![CDATA[PAV0000023]]></idx>
+							<subject><![CDATA[<b><u>공연행사6</u></b>]]></subject>
+							<where><![CDATA[장소6]]></where>
+							<when><![CDATA[11:00 - 13:00 / 15:00 - 17:00]]></when>
+							<more target="_self"><![CDATA[javascript:alert("공연행사6")]]></more>
+						</area>
+					</course>
+				</category>
+				
+				<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+				<count>
+					<name><![CDATA[<b>기후환경관</b>]]></name>
+					<number><![CDATA[<u>124</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>주제관</b>]]></name>
+					<number><![CDATA[<u>270</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>지자체관</b>]]></name>
+					<number><![CDATA[<u>143</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>한국관</b>]]></name>
+					<number><![CDATA[<u>313</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>해양베스트관</b>]]></name>
+					<number><![CDATA[<u>214</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>해양생물관</b>]]></name>
+					<number><![CDATA[<u>115</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>현재방문객</b>]]></name>
+					<number><![CDATA[<u>101</u>]]></number>
+				</count>
+			</sub>
+			<GO target="_self"><![CDATA[javascript:alert("관람안내go")]]></GO>
+			<miniGO target="_self"><![CDATA[javascript:alert("전시관현황")]]></miniGO>
+			<miniGO target="_self"><![CDATA[javascript:alert("전시관예약")]]></miniGO>
+		</map>
+		<point>
+			<main>
+				<subject><![CDATA[<b>맛과 멋과 재미가 함께 있는 남도 여행</b>]]></subject>
+				<content><![CDATA[다양한 볼거리와 즐길거리를 여수 세계박람회와 함께 즐기세요.]]></content>
+			</main>
+			<sub>
+				<category>
+					<subject><![CDATA[<b>관광코스</b>]]></subject>
+					<news>
+						<subject><![CDATA[바람을 벗 삼아 바닷길을 달린다, 여수 해안길-여수]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("바람을 벗 삼아 바닷길을 달린다, 여수 해안길-여수")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[백악기 공룡들과 즐거운 조우, 여수 사도]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("백악기 공룡들과 즐거운 조우, 여수 사도")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[이충무공의 흔적을 좇는 가슴 뜨거워지는 여정-여수]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("이충무공의 흔적을 좇는 가슴 뜨거워지는 여정-여수")]]></linkURL>
+					</news>
+					<item>
+						<image><![CDATA[image/point01.jpg]]></image>
+						<subject><![CDATA[<b><u>백악기 공룡들과 즐거운 조우, 여수 사도</u></b>]]></subject>
+						<content><![CDATA[‘공룡’으로 유명한 사도는 여수에서 27km 지점에 위치한 섬이다. 또 ...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("백악기 공룡들과 즐거운 조우, 여수 사도")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point02.jpg]]></image>
+						<subject><![CDATA[<b><u>보고 느끼고 맛보는 즐거움이 가득한 체험 여행, 돌산도-여수</u></b>]]></subject>
+						<content><![CDATA[아이들과 함께 하면 좋은 체험 여행이 있다. 2012년 열리는 박람회를 ...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("보고 느끼고 맛보는 즐거움이 가득한 체험 여행, 돌산도-여수")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point03.jpg]]></image>
+						<subject><![CDATA[<b><u>바람을 벗 삼아 바닷길을 달린다, 여수 해안길-여수</u></b>]]></subject>
+						<content><![CDATA[천혜의 비경을 자랑하는 여수 여자만과 가막만. 해안선을 따라 남해에서 가...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("바람을 벗 삼아 바닷길을 달린다, 여수 해안길-여수")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point04.jpg]]></image>
+						<subject><![CDATA[<b><u>푸른 바다가 유혹하고 바람과 사랑을 나누는 자전거 여행-여수</u></b>]]></subject>
+						<content><![CDATA[‘큰 자라’라는 뜻이 있는 금오도는 천혜의 자연환경으로 다도해 해상국립공...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("푸른 바다가 유혹하고 바람과 사랑을 나누는 자전거 여행-여수")]]></linkURL>
+					</item>
+				</category>
+				<category>
+					<subject><![CDATA[<b>관광지</b>]]></subject>
+					<news>
+						<subject><![CDATA[돌문화공원]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[서재필기념관]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[지리산길 3구간(인월~금계, 19.3km)]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<item>
+						<image><![CDATA[image/point03.jpg]]></image>
+						<subject><![CDATA[<b><u>경기전</u></b>]]></subject>
+						<content><![CDATA[이성계의 화상을 봉안한 ‘경기전’은 처음부터 그 명칭을 쓴 것이 아니었다...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("경기전")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point04.jpg]]></image>
+						<subject><![CDATA[<b><u>서유리 공룡발자국화석지</u></b>]]></subject>
+						<content><![CDATA[화순 공룡발자국화석지는 북면 서유리 일대에서 발견된 대규모 중생대 백악기...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("서유리 공룡발자국화석지")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point01.jpg]]></image>
+						<subject><![CDATA[<b><u>관방제림</u></b>]]></subject>
+						<content><![CDATA[천연기념물 제366호로 지정되어 보호받고 있는 관방제림은 조선 인조 때(...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("관방제림")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point02.jpg]]></image>
+						<subject><![CDATA[<b><u>선소</u></b>]]></subject>
+						<content><![CDATA[여수시 시전동 여수 선소유적지는 이순신장군이 거북선과 판옥선을 수리하고 ...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("선소")]]></linkURL>
+					</item>
+				</category>
+				<category>
+					<subject><![CDATA[<b>지정업소</b>]]></subject>
+					<news>
+						<subject><![CDATA[여수돌산테마마을갓김치]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[청마루]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<news>
+						<subject><![CDATA[갈대밭 사랑채]]></subject>
+						<linkURL target="_self"><![CDATA[javascript:alert("")]]></linkURL>
+					</news>
+					<item>
+						<image><![CDATA[image/point04.jpg]]></image>
+						<subject><![CDATA[<b><u>여수돌산테마마을갓김치</u></b>]]></subject>
+						<content><![CDATA[청마루는 보성군청사거리에서 15년째 영업 중인 보성의 터줏대감으로 그만큼...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("여수돌산테마마을갓김치")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point03.jpg]]></image>
+						<subject><![CDATA[<b><u>버섯동네큰잔치</u></b>]]></subject>
+						<content><![CDATA[양식조리사 시절의 경험을 토대로 심혈을 기울여 만든 양배추 소스와 고추냉...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("버섯동네큰잔치")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point02.jpg]]></image>
+						<subject><![CDATA[<b><u>청마루</u></b>]]></subject>
+						<content><![CDATA[청마루는 보성군청사거리에서 15년째 영업 중인 보성의 터줏대감으로 그만큼...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("청마루")]]></linkURL>
+					</item>
+					<item>
+						<image><![CDATA[image/point01.jpg]]></image>
+						<subject><![CDATA[<b><u>버섯동네큰잔치</u></b>]]></subject>
+						<content><![CDATA[양식조리사 시절의 경험을 토대로 심혈을 기울여 만든 양배추 소스와 고추냉...]]></content>
+						<linkURL target="_self"><![CDATA[javascript:alert("버섯동네큰잔치")]]></linkURL>
+					</item>
+				</category>
+				<count>
+					<name><![CDATA[<b>공룡공원</b>]]></name>
+					<number><![CDATA[<u>1,720</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>고인돌공원</b>]]></name>
+					<number><![CDATA[<u>1,670</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>야생차체험관</b>]]></name>
+					<number><![CDATA[<u>1,258</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>백련리도요지</b>]]></name>
+					<number><![CDATA[<u>926</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>오동도</b>]]></name>
+					<number><![CDATA[<u>4,122</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>최참판댁</b>]]></name>
+					<number><![CDATA[<u>2,683</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>태백문학관</b>]]></name>
+					<number><![CDATA[<u>2,772</u>]]></number>
+				</count>
+				<count>
+					<name><![CDATA[<b>벌교역</b>]]></name>
+					<number><![CDATA[<u>1,363</u>]]></number>
+				</count>
+			</sub>
+			<GO target="_self"><![CDATA[javascript:alert("관광안내go")]]></GO>
+		</point>
+	</sightseeing>
+</infoBanner>
