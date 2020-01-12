@@ -44,16 +44,6 @@ window.GLEAM = (function(window, $) {
         //console.log( 'HEADER_START' );
 
         break
-      case 'HEADER_END':
-        //console.log( 'HEADER_END' );
-
-        _gleamIndex = e.index
-        GLEAM.Header.end()
-        GLEAM.Ryuzuka.end()
-        GLEAM.Footer.end()
-        GLEAM.Content.end()
-        // GLEAM.Curtain.close()
-        break
       case 'HEADER_MENU_CLICK':
         _gleamIndex = e.index
         GLEAM.Header.end()
