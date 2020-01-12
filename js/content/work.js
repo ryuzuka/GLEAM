@@ -43,7 +43,9 @@ window.GLEAM.Content = (function(window, $) {
       _callback.call(this, { type: 'CONTENT_START' })
     },
     end: function() {
-      _callback.call(this, { type: 'CONTENT_COMPLETE_END' })
+      setTimeout(function() {
+        _callback.call(this, { type: 'CONTENT_COMPLETE_END' })
+      }, 500)
     }
   }
 })(window, jQuery)

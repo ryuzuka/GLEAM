@@ -31,10 +31,9 @@ jQuery.fn.animateTitle = function(options) {
 
   $this.append($bg).append($mask)
   $mask.append($img)
-  $this.css({ width: $img.width(), height: $img.height() })
 
   $mask.css({ position: 'absolute', overflow: 'hidden', width: '0%' })
-  $bg.css({ position: 'absolute', left: '0', top: '0', width: '0', height: $img.height(), 'background-color': '#ddd' })
+  $bg.css({ position: 'absolute', left: '0', top: '0', width: '0', height: '100%', 'background-color': '#ddd' })
 
   return {
     start: function(completeFunc) {

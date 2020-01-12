@@ -1,12 +1,11 @@
 /*!
  *
  * GLEAM
- * @version 20151230 ryuzuka
+ * @version 20200107 ksg
  *
  */
 
-var _gleamIndex = null,
-  _sessionIndex = null
+var _gleamIndex = null
 
 var Static = {
   url: ['/gleam/GLEAM.html', '/gleam/about.html', '/gleam/work.html', '/gleam/board.html', '/gleam/contact.html'],
@@ -22,13 +21,19 @@ window.GLEAM = (function(window, $) {
     switch (e.type) {
       case 'CURTAIN_OPEN': // ------------------------- start
         //console.log( 'CURTAIN_OPEN' );
+
         GLEAM.Ryuzuka.start()
         GLEAM.Header.start()
         GLEAM.Footer.start()
         break
       case 'CURTAIN_COMPLETE_OPEN':
         //console.log( 'CURTAIN_COMPLETE_OPEN' );
+
         GLEAM.Content.start()
+        break
+      case 'CURTAIN_CLOSE':
+        //console.log( 'CURTAIN_CLOSE' );
+
         break
     }
   }
@@ -37,9 +42,19 @@ window.GLEAM = (function(window, $) {
     switch (e.type) {
       case 'HEADER_START':
         //console.log( 'HEADER_START' );
+
         break
       case 'HEADER_END':
         //console.log( 'HEADER_END' );
+
+        _gleamIndex = e.index
+        GLEAM.Header.end()
+        GLEAM.Ryuzuka.end()
+        GLEAM.Footer.end()
+        GLEAM.Content.end()
+        // GLEAM.Curtain.close()
+        break
+      case 'HEADER_MENU_CLICK':
         _gleamIndex = e.index
         GLEAM.Header.end()
         GLEAM.Ryuzuka.end()
@@ -61,8 +76,10 @@ window.GLEAM = (function(window, $) {
         //console.log( 'CONTENT_END' );
         break
       case 'CONTENT_COMPLETE_END':
-        //console.log( 'CONTENT_COMPLETE_END' );
-        GLEAM.Window.locationHref(_gleamIndex)
+        console.log('CONTENT_COMPLETE_END')
+        GLEAM.Curtain.close(function() {
+          window.location.href = Static.url[_gleamIndex]
+        })
         break
     }
   }
@@ -70,15 +87,16 @@ window.GLEAM = (function(window, $) {
   // ------------------------------------------------------- public
   return {
     init: function() {
-      console.log('GLEAM.init();')
+      // console.log('GLEAM.init();')
 
       GLEAM.Curtain.init(curtainHandler)
       GLEAM.Header.init(headerHandler)
       GLEAM.Content.init(contentHandler)
       GLEAM.Ryuzuka.init()
       GLEAM.Footer.init()
+      GLEAM.Window.init()
 
-      GLEAM.Window.init() // ---------------------- start
+      $(window).trigger('resize') // ---------------------- start
     }
   }
 })(window, jQuery)

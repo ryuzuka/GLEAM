@@ -1,7 +1,7 @@
 /*!
  *
  * GLEAM
- * @version 20151221 ryuzuka
+ * @version 20200111 ryuzuka
  *
  */
 
@@ -25,7 +25,7 @@ window.GLEAM.Content = (function(window, $) {
   // ------------------------------------------------------- public
   return {
     init: function(callback) {
-      console.log('GLEAM.Content.init();')
+      console.log('GLEAM.Content( main ).init();')
 
       _callback = callback
       _$content.css('visibility', 'visible')
@@ -58,7 +58,7 @@ window.GLEAM.Content = (function(window, $) {
           onCompleteParams: [i],
           onComplete: function(index) {
             if (index == _$list.length - 1) {
-              //_callback.call( this, { type: 'CONTENT_COMPLETE_START' } );
+              _callback.call(this, { type: 'CONTENT_COMPLETE_START' })
             }
           }
         })
@@ -70,7 +70,7 @@ window.GLEAM.Content = (function(window, $) {
       }
       _animateTitle.end(completeEnd)
       for (var i = 0; i < _$list.length; ++i) {
-        TweenMax.to(_$list.eq(i), 0.2, { opacity: 0, 'margin-top': 0, ease: Expo.easeOut, delay: 0.3 + 0.02 * i, onCompleteParams: [i] })
+        TweenMax.to(_$list.eq(i), 0.2, { opacity: 0, 'margin-top': 0, ease: Expo.easeOut, delay: 0.3 + 0.02 * i })
       }
     }
   }

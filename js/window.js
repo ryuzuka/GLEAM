@@ -17,11 +17,13 @@ window.GLEAM.Window = (function(window, $) {
     GLEAM.Header.resize(_$window)
     GLEAM.Footer.resize(_$window)
     GLEAM.Content.resize(_$window)
+
     return false
   }
 
   function windowUnloadHandler(e) {
     SessionStorage.set('sessionIndex', _gleamIndex)
+
     return false
   }
 
@@ -33,13 +35,6 @@ window.GLEAM.Window = (function(window, $) {
         resize: windowResizeHandler,
         unload: windowUnloadHandler
       })
-      _$window.trigger('resize')
-    },
-    resize: function() {
-      _$window.trigger('resize')
-    },
-    locationHref: function(index) {
-      window.location.href = Static.url[index]
     }
   }
 })(window, jQuery)

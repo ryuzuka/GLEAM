@@ -49,8 +49,8 @@ window.GLEAM.Content = (function(window, $) {
       var completeClose = function() {
         _callback.call(this, { type: 'CONTENT_COMPLETE_END' })
       }
-      _animateTitle.end(completeClose)
       $('body').css('overflow', 'hidden')
+      _animateTitle.end(completeClose)
       for (var i = 0; i < _$list.length; ++i) {
         TweenMax.to(_$list.eq(i), 0.7, { width: 0, ease: Expo.easeInOut })
       }

@@ -53,17 +53,16 @@ window.GLEAM.Header = (function(window, $) {
           return false
         }
         $(this).css('cursor', 'default')
-        _callback.call(this, { type: 'HEADER_END', index: 0 })
+        _callback.call(this, { type: 'HEADER_MENU_CLICK', index: 0 })
         return false
         break
     }
   }
 
   function gnbEventHandler(e) {
-    var menuIdx =
-      $(this)
-        .parent()
-        .index() + 1
+    var $parent = $(this).parent()
+    var menuIdx = $parent.index() + 1
+
     switch (e.type) {
       case 'mouseenter':
         activateMenu(menuIdx)
@@ -71,7 +70,7 @@ window.GLEAM.Header = (function(window, $) {
       case 'click':
         if (menuIdx != _gleamIndex) {
           $(this).css('cursor', 'default')
-          _callback.call(this, { type: 'HEADER_END', index: menuIdx })
+          _callback.call(this, { type: 'HEADER_MENU_CLICK', index: menuIdx })
         }
         return false
         break
@@ -109,7 +108,7 @@ window.GLEAM.Header = (function(window, $) {
   // ------------------------------------------------------------ public
   return {
     init: function(callback) {
-      console.log('GLEAM.Header.init();')
+      // console.log('GLEAM.Header.init();')
 
       _callback = callback
       var arrMenuWidth = [54, 48, 55, 75]
