@@ -1,0 +1,22 @@
+{
+  "banner": {
+    "bg": [
+      "./image/bg/D_Brand_01_Marni.png",
+      "./image/bg/D_Brand_02_CHLOE.png",
+      "./image/bg/D_Brand_03_ALEXANDER WANG.png",
+      "./image/bg/D_Brand_04_SAMO ONDOH.png",
+      "./image/bg/D_Brand_05_VIDIVICI.png",
+      "./image/bg/D_Brand_06_STUDIO TOMBOY.png",
+      "./image/bg/D_Brand_07_VOV.png"
+    ],
+    "logo": [
+      {"src": "./image/logo/Chloe.png",               "name":  "Chole"},
+      {"src": "./image/logo/Color.png",               "name":  "alexanderwang"},
+      {"src": "./image/logo/Marni.png",               "name":  "MARNI"},
+      {"src": "./image/logo/Mask.png",                "name":  "STUDIO TOMBOY"},
+      {"src": "./image/logo/SAMOONDOH.png",           "name":  "SAMO ONDOH"},
+      {"src": "./image/logo/vidivici-dark.png",       "name":  "VIDIVICI"},
+      {"src": "./image/logo/VOV.png",                 "name":  "VOV"}
+    ]
+  }
+}
